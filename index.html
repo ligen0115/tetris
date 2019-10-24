@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #map {
+            position: relative;
+            margin: 0 auto;
+            background-color: rgb(228, 228, 228);
+            width: 420px;
+            height: 640px;
+            overflow: hidden;
+        }
+
+        #map p {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-width: 4px;
+            border-style: solid;
+        }
+
+        #score {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: 250px;
+            font-size: 50px;
+            color: #000;
+        }
+
+        .explain {
+            font-size: 30px;
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            margin-left: -500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="map">
+    </div>
+    <div id="score">0</div>.
+    <div class="explain">
+        使用以下按键操作: <br>
+        A , S , D <br>
+        J , K <br>
+        空格键暂停
+    </div>
+    <script src="./js/俄罗斯方块.js"></script>
+</body>
+
+</html>
